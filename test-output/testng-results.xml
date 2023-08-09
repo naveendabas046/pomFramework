@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-10T02:19:28 IST" name="Suite" finished-at="2023-08-10T02:19:39 IST" duration-ms="10292">
+    <groups>
+      <group name="E2E">
+        <method signature="InteractionsTest.draggableTest()[pri:1, instance:com.jqueryui.test.InteractionsTest@7776ab]" name="draggableTest" class="com.jqueryui.test.InteractionsTest"/>
+        <method signature="InteractionsTest.droppableTest()[pri:2, instance:com.jqueryui.test.InteractionsTest@7776ab]" name="droppableTest" class="com.jqueryui.test.InteractionsTest"/>
+        <method signature="InteractionsTest.resizableTest()[pri:3, instance:com.jqueryui.test.InteractionsTest@7776ab]" name="resizableTest" class="com.jqueryui.test.InteractionsTest"/>
+        <method signature="InteractionsTest.selectableTest()[pri:4, instance:com.jqueryui.test.InteractionsTest@7776ab]" name="selectableTest" class="com.jqueryui.test.InteractionsTest"/>
+        <method signature="InteractionsTest.sortableTest()[pri:5, instance:com.jqueryui.test.InteractionsTest@7776ab]" name="sortableTest" class="com.jqueryui.test.InteractionsTest"/>
+      </group> <!-- E2E -->
+    </groups>
+    <test started-at="2023-08-10T02:19:28 IST" name="Test" finished-at="2023-08-10T02:19:39 IST" duration-ms="10292">
+      <class name="com.jqueryui.test.InteractionsTest">
+        <test-method is-config="true" signature="startWebDriver(java.lang.String,java.lang.String)[pri:0, instance:com.jqueryui.test.InteractionsTest@7776ab]" started-at="2023-08-10T02:19:28 IST" name="startWebDriver" finished-at="2023-08-10T02:19:31 IST" duration-ms="2556" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebDriver -->
+        <test-method is-config="true" signature="goToMainPage()[pri:0, instance:com.jqueryui.test.InteractionsTest@7776ab]" started-at="2023-08-10T02:19:31 IST" name="goToMainPage" finished-at="2023-08-10T02:19:32 IST" duration-ms="1073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToMainPage -->
+        <test-method signature="draggableTest()[pri:1, instance:com.jqueryui.test.InteractionsTest@7776ab]" started-at="2023-08-10T02:19:32 IST" name="draggableTest" finished-at="2023-08-10T02:19:34 IST" duration-ms="1690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- draggableTest -->
+        <test-method is-config="true" signature="goToMainPage()[pri:0, instance:com.jqueryui.test.InteractionsTest@7776ab]" started-at="2023-08-10T02:19:34 IST" name="goToMainPage" finished-at="2023-08-10T02:19:34 IST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToMainPage -->
+        <test-method signature="droppableTest()[pri:2, instance:com.jqueryui.test.InteractionsTest@7776ab]" started-at="2023-08-10T02:19:34 IST" name="droppableTest" finished-at="2023-08-10T02:19:35 IST" duration-ms="1131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- droppableTest -->
+        <test-method is-config="true" signature="goToMainPage()[pri:0, instance:com.jqueryui.test.InteractionsTest@7776ab]" started-at="2023-08-10T02:19:35 IST" name="goToMainPage" finished-at="2023-08-10T02:19:35 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToMainPage -->
+        <test-method signature="resizableTest()[pri:3, instance:com.jqueryui.test.InteractionsTest@7776ab]" started-at="2023-08-10T02:19:35 IST" name="resizableTest" finished-at="2023-08-10T02:19:36 IST" duration-ms="1212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resizableTest -->
+        <test-method is-config="true" signature="goToMainPage()[pri:0, instance:com.jqueryui.test.InteractionsTest@7776ab]" started-at="2023-08-10T02:19:36 IST" name="goToMainPage" finished-at="2023-08-10T02:19:36 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToMainPage -->
+        <test-method signature="selectableTest()[pri:4, instance:com.jqueryui.test.InteractionsTest@7776ab]" started-at="2023-08-10T02:19:36 IST" name="selectableTest" finished-at="2023-08-10T02:19:38 IST" duration-ms="1218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectableTest -->
+        <test-method is-config="true" signature="goToMainPage()[pri:0, instance:com.jqueryui.test.InteractionsTest@7776ab]" started-at="2023-08-10T02:19:38 IST" name="goToMainPage" finished-at="2023-08-10T02:19:38 IST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToMainPage -->
+        <test-method signature="sortableTest()[pri:5, instance:com.jqueryui.test.InteractionsTest@7776ab]" started-at="2023-08-10T02:19:38 IST" name="sortableTest" finished-at="2023-08-10T02:19:39 IST" duration-ms="1079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortableTest -->
+        <test-method is-config="true" signature="closeBrowser1()[pri:0, instance:com.jqueryui.test.InteractionsTest@7776ab]" started-at="2023-08-10T02:19:39 IST" name="closeBrowser1" finished-at="2023-08-10T02:19:39 IST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser1 -->
+      </class> <!-- com.jqueryui.test.InteractionsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
